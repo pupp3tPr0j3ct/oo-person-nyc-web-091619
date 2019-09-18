@@ -80,5 +80,7 @@ class Person
       name.happiness -= 2 
     return "blah blah partisan blah lobbyist"
     end
+    if topic == "weather"
+    return "blah blah sun blah rain"
   end
 end
