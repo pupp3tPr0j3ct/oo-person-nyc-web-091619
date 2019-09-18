@@ -61,4 +61,8 @@ class Person
     self.hygiene += 4
     return "♪ Rub-a-dub just relaxing in the tub ♫"
   end
+  
+  def work_out
+    self.hygiene -= 5 
+  end
 end
