@@ -1,3 +1,4 @@
+require 'pry'
 class Person
   
   attr_reader :name, :bank_account, :happiness, :hygiene
@@ -16,5 +17,6 @@ class Person
   
   def happiness=(points)
     @happiness = 9
+    binding.pry
   end
 end
