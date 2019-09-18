@@ -34,6 +34,13 @@ class Person
     else
       @hygiene = points 
     end
-    
+  end
+  
+  def happy?
+    if @happiness > 7
+      return true 
+    else
+      return false 
+    end
   end
 end
