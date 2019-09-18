@@ -19,14 +19,21 @@ class Person
     if points > 10 
       @happiness = 10 
     elsif points < 0
-    @happiness = 0
+      @happiness = 0
     else
-    @happiness = points
+      @happiness = points
     end
     #binding.pry
   end
   
-  def hygiene
+  def hygiene=(points)
+    if points > 10 
+      @hygiene = 10
+    elsif points < 0 
+      @hygiene = 0 
+    else
+      @hygiene = points 
+    end
     
   end
 end
