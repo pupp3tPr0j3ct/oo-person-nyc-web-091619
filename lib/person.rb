@@ -78,12 +78,14 @@ class Person
     if topic == "politics"
       self.happiness -= 2 
       name.happiness -= 2 
-    return "blah blah partisan blah lobbyist"
-    end
-    if topic == "weather"
+      return "blah blah partisan blah lobbyist"
+    elsif topic == "weather"
       self.happiness += 1 
       name.happiness += 1 
-    return "blah blah sun blah rain"
+      return "blah blah sun blah rain"
+    else
+      return
     end
+    
   end
 end
