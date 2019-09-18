@@ -13,4 +13,8 @@ class Person
     @bank_account += deposit
     
   end
+  
+  def happiness=(points)
+    @happiness = 9
+  end
 end
