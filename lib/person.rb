@@ -58,6 +58,6 @@ class Person
   end
   
   def take_bath
-    @hygiene += 4
+    self.hygiene += 4
   end
 end
