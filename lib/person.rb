@@ -75,6 +75,6 @@ class Person
   end
   
   def start_conversation(arg1, arg2)
-    
+    return "blah blah partisan blah lobbyist"
   end
 end
