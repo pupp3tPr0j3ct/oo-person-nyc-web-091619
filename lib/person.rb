@@ -16,7 +16,7 @@ class Person
   end
   
   def happiness=(points)
-    @happiness = 9
+    @happiness = points
     binding.pry
   end
 end
