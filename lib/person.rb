@@ -25,4 +25,8 @@ class Person
     end
     #binding.pry
   end
+  
+  def hygiene
+    
+  end
 end
