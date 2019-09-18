@@ -82,5 +82,6 @@ class Person
     end
     if topic == "weather"
     return "blah blah sun blah rain"
+    end
   end
 end
